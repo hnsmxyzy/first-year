@@ -27,4 +27,5 @@ int main()
 		cout << "插入后的数组为：" << endl;
 		numlist.printlist();
 	}
+	return 0;
 }
