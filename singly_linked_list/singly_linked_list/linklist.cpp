@@ -183,7 +183,7 @@ linklist::~linklist()
 	while (first != NULL)
 	{
 		node *q;
-		q = new node;
+		//q = new node;
 		//delete q->info.team;
 		q = first;
 		first = first->next;
@@ -304,7 +304,7 @@ void linklist::Delete(int num)
 	else
 	{
 		node *q;
-		q = new node;
+		//q = new node;
 		q = p->next; 
 		p->next = q->next;
 		q->info.get_data();
