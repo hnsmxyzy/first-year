@@ -25,7 +25,7 @@ linklist::~linklist()
 	while (first != NULL && first->next != NULL)
 	{
 		//node *q;
-		will = new node;
+		//will = new node;
 		//delete q->info.team;
 		will = first;
 		first = first->next;
