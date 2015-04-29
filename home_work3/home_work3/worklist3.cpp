@@ -22,7 +22,7 @@ linklist::linklist()
 }
 linklist::~linklist()
 {
-	while (first != NULL && first->next != NULL)
+	while (first != NULL)
 	{
 		//node *q;
 		//will = new node;
